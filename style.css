@@ -89,8 +89,6 @@ flex-container {
 }
 
 .memory-card {
-    /* width: calc (25% - 10px); */
-    /*height: (33.333% - 10px);*/
     width: 184px;
     height: auto 0;
     margin: 6px;
@@ -98,7 +96,7 @@ flex-container {
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5;
-    /* border: 4px solid skyblue; */
+    border: 4px solid skyblue;
 }
 .memory-card:active {
 transform: scale(.97);
@@ -119,8 +117,4 @@ transform: rotateY(180deg);
     background: #652DC1;
     backface-visibility: hidden;
     /* border: 4px solid hotpink; */
-}
-
-.front-face {
-    transform: rotateY(180deg);
 }
