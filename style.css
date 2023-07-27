@@ -20,7 +20,7 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 33px;
     background: rgb(20, 2, 37);
-    position: absolute;
+    /* position: absolute; */
 }
 .container {
     position: relative;
